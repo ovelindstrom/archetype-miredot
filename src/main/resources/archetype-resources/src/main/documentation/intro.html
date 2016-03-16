@@ -1,0 +1,52 @@
+<h2>General</h2>
+<p>
+    The ${serviceName} has the following connectors for Requests and Responses that are implemented with JSON bodies.
+    <br/>
+<ul>
+    <li>
+        <b>X Connector</b> : This is used for X.
+    </li>
+    <li>
+        <b>Y Connector</b> : This is used for Y.
+    </li>
+    <li>
+        ...
+    </li>
+</ul>
+
+
+<h2>Media types</h2>
+<p>
+    The Media Type for new APIs are:
+</p>
+<pre>
+    Accept: application/vnd.acme.#your package#-#major#.#minor#+json
+    Content-Type: application/vnd.acme.#your package#-#major#.#minor#+json
+</pre>
+
+<p>
+    The Media Type for deprecated APIs are:
+</p>
+<pre>
+    Accept: application/vnd.acme.#your package#-#major#.#minor#+json
+    Content-Type: application/vnd.acme.#your package#-#major#.#minor#+json
+</pre>
+<pre>
+    Accept: application/vnd.acme.#your package#-#major#.#minor#+json
+    Content-Type: application/vnd.acme.#your package#-#major#.#minor#+json
+</pre>
+<p>
+    The default Media type is:
+<pre>
+    Accept: application/vnd.acme.#your package#-#major#.#minor#+json
+    Content-Type: application/vnd.acme.#your package#-#major#.#minor#+json
+</pre>
+</p>
+
+
+<h2>Service availability (ping)</h2>
+<p>
+    The service can be validated using the HEAD method for all resources that implement the GET method.
+    The HEAD method also performs authentication. A successful request returns HTTP status code 200 and no response
+    body.
+</p>

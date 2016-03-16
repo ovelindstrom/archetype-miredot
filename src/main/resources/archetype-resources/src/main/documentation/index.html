@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="css/layout.css">
+
+    <title>ACME ${serviceName}</title>
+</head>
+<body>
+<img src="images/logo.png"/>
+<menu>
+    <ul>
+        <li>
+            <a href="home.html" target="content">Home</a>
+        </li>
+        <li>
+            <a href="overview.html" target="content">Overview</a>
+        </li>
+        <li>
+            <a href="api/index.html" target="content">API</a>
+        </li>
+    </ul>
+    <div id="version">Version ${project.version}</div>
+</menu>
+<iframe id="main-content" name="content" src="home.html"></iframe>
+</body>
+</html>

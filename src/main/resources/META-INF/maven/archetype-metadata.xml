@@ -1,0 +1,42 @@
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
+                      name="Limestream MireDot Documentation"
+                      partial="true">
+
+    <requiredProperties>
+        <requiredProperty key="miredotVersion">
+            <defaultValue>2.0-RC1</defaultValue>
+        </requiredProperty>
+        <requiredProperty key="serviceName">
+        </requiredProperty>
+        <requiredProperty key="baseUrl">
+        </requiredProperty>
+    </requiredProperties>
+    <fileSets>
+        <fileSet filtered="true" encoding="utf-8" packaged="false">
+            <directory>src/main/documentation</directory>
+            <includes>
+                <include>**/*.html</include>
+                <include>**/*.css</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="false" encoding="utf-8" packaged="false">
+            <directory>src/main/documentation</directory>
+            <includes>
+                <include>**/*.gif</include>
+                <include>**/*.png</include>
+            </includes>
+        </fileSet>
+        <!-- The default main/java and test/java -->
+        <fileSet filtered="true" packaged="true">
+            <directory>src/main/java</directory>
+        </fileSet>
+        <fileSet filtered="false" packaged="false">
+            <directory></directory>
+            <includes>
+                <include>README.md</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</archetype-descriptor>
