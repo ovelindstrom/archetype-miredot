@@ -59,9 +59,15 @@
                 </executions>
                 <configuration>
                     <!--
-                        Generate a free license for your artifact.
+                        For open-source: Request a free license for your artifact:group-id by contacting "support@miredot.com".
+                        If you receive a key from us you can copy paste it within the license tags below:
                     -->
-                    <license></license>
+                    <!--<license></license> //Uncomment this line. -->
+                    <!--
+                        For commercial users: Sign up for your free trial are www.miredot.com/price, and copy paste your
+                        organization id withing the organizationId tags below:
+                    -->
+                    <!--<organizationId></organizationId> //Uncomment this line. -->
                     <restModel>
                         <restFramework>
                             <name>jax-rs</name>
