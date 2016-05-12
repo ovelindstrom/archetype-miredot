@@ -64,8 +64,8 @@
                     -->
                     <!--<license></license> //Uncomment this line. -->
                     <!--
-                        For commercial users: Sign up for your free trial are www.miredot.com/price, and copy paste your
-                        organization id withing the organizationId tags below:
+                        For commercial users: Sign up for your free trial at www.miredot.com/price, and copy paste your
+                        organization id within the organizationId tags below:
                     -->
                     <!--<organizationId></organizationId> //Uncomment this line. -->
                     <restModel>

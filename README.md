@@ -1,16 +1,16 @@
-# MireDot Archetype
+# Miredot Archetype
 ## Version 1.0
 
-This archetype creates a MireDot documentation project. It includes
+This archetype creates a Miredot documentation project. It includes
 a whitelabled html structure, including a dummy ACME logo, css and base 
 structure for API documentation.
 
 Build it first with `mvn clean install`.
 
 The archetype is a partial archetype and can be applied on top of an existing
-project that wants to add MireDot documentation.
+project that wants to add Miredot documentation.
 
-To apply the MireDot archetype to an existing project, just navigate to that
+To apply the Miredot archetype to an existing project, just navigate to that
 project with a terminal/command window and use this Maven command:
 
 ```
@@ -34,13 +34,15 @@ Change the following parameters to suit your needs:
 - baseUrl: A domain name to use as a base for the API documentation. Normally where you deploy your service.
 
 
-To create an empty MireDot project from scratch just to familiarize yourself with 
+To create an empty Miredot project from scratch just to familiarize yourself with 
 the concept, just stand in a directory that does not contain a pom.xml and run the same command.
  
-Then go to http://www.miredot.com/price/ and start your free trial. Open-source projects can request a free commercial key at support@miredot.com.
+Then go to http://www.miredot.com/price/ and start your free trial. Open-source projects can request a free commercial key at support@miredot.com. 
+When you have obtained your license you can copy paste it in the Miredot plugin configuration section of your pom. 
+Using this archetype your pom will include instructions on where to copy paste your license.
 
-For the usage of MireDot see http://miredot.com/docs/.
+For the usage of Miredot see http://miredot.com/docs/.
 
 The README.md of the generated archetype contains information about customized html files.
 
-All MireDot properties are (c) of Qmino.
+All Miredot properties are (c) of Qmino.
