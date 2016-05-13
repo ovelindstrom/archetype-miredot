@@ -1,14 +1,14 @@
-# MireDot usage
+# Miredot usage
  
 The archetype has generated a SillyRequestResource class so that you can
 verify that the generation is functioning as it should if you created an
 project from scratch. You are safe to remove it at any time. In fact, Sonar
 will hunt it down.
 
-The MireDot documentation is build with the normal compilation so no extra
+The Miredot documentation is build with the normal compilation so no extra
 build steps are needed. The output is found at `${project.build.directory}/miredot/html/`.
 
-The base directory for MireDot documentation is `/src/main/resources/documentation`, from now on
+The base directory for Miredot documentation is `/src/main/resources/documentation`, from now on
 named as `${miredot.base}`.
 
 In `${miredot.base}` you find the css and images in the named directories. Please store all images in the `images` directory.
@@ -35,5 +35,3 @@ Should contain an overview of the service/connector.
 ### intro.html
 
 The header of the API-documentation. Put stuff like media types, change log and other API related stuff here.
-
-
