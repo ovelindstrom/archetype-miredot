@@ -1,5 +1,5 @@
 # Miredot Archetype
-## Version 1.0
+## Version 1.1
 
 This archetype creates a Miredot documentation project. It includes
 a whitelabled html structure, including a dummy ACME logo, css and base 
@@ -16,7 +16,7 @@ project with a terminal/command window and use this Maven command:
 ```
 mvn archetype:generate -DarchetypeGroupId=se.limestream.archetypes      \
                        -DarchetypeArtifactId=archetype-miredot          \
-                       -DarchetypeVersion=1.0-SNAPSHOT                  \
+                       -DarchetypeVersion=1.1-SNAPSHOT                  \
                        -DgroupId=com.acme.myproject                     \
                        -DartifactId=my-first-miredot                    \
                        -Dversion=1.0.0-SNAPSHOT                         \
@@ -34,7 +34,7 @@ Change the following parameters to suit your needs:
 - baseUrl: A domain name to use as a base for the API documentation. Normally where you deploy your service.
 
 Additional parameters:
-- miredotVersion: Miredot's current bleeding edge is 2.0-SNAPSHOT, the latest stable release is 2.0-RC2 (default).
+- miredotVersion: Miredot's current bleeding edge is 2.1-SNAPSHOT, the latest stable release is 2.0.1 (default).
 
 To create an empty Miredot project from scratch just to familiarize yourself with 
 the concept, just stand in a directory that does not contain a pom.xml and run the same command.
