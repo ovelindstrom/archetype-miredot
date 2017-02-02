@@ -6,7 +6,7 @@
 
     <requiredProperties>
         <requiredProperty key="miredotVersion">
-            <defaultValue>2.0.1</defaultValue>
+            <defaultValue>2.0.3</defaultValue>
         </requiredProperty>
         <requiredProperty key="serviceName">
         </requiredProperty>
