@@ -1,4 +1,8 @@
 # Miredot Archetype
+## Version 1.2
+
+Updated default Miredot version to 2.0.3.
+
 ## Version 1.1
 
 This archetype creates a Miredot documentation project. It includes
@@ -16,7 +20,7 @@ project with a terminal/command window and use this Maven command:
 ```
 mvn archetype:generate -DarchetypeGroupId=se.limestream.archetypes      \
                        -DarchetypeArtifactId=archetype-miredot          \
-                       -DarchetypeVersion=1.1-SNAPSHOT                  \
+                       -DarchetypeVersion=1.2-SNAPSHOT                  \
                        -DgroupId=com.acme.myproject                     \
                        -DartifactId=my-first-miredot                    \
                        -Dversion=1.0.0-SNAPSHOT                         \
